@@ -38,14 +38,14 @@
 
 
 .rightmenu{
-	width:70%;
+	width:75%;
 	line-height: 80px;
 	float: right;
 /*	background-color: red; */
 }
 
 .rightmenu ul{
-	margin-left: 200px;
+	margin-left: 150px;
 
 }
 
