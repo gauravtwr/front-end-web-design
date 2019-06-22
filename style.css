@@ -1,11 +1,8 @@
 *{
 	margin:0px;
 	padding:0px;
-	cursor: default;
 }
-a{
-	cursor: pointer;
-}
+
 .bgimage{
 	background-image: url('industry40-1920.jpg');
 	background-size: cover;
@@ -16,8 +13,7 @@ a{
 
 	width: 100%;
 	height: 80px;
-	background-color: rgba(0, 0, 0, 0.623);
-	box-shadow: 0 0.5px 10px 0.5px #ccc;
+	background-color: rgba(0,0,0,0.5);
 }
 
 .leftmenu{
@@ -26,6 +22,8 @@ a{
 	float: left;
 /*	background-color: yellow;*/
 }
+
+
 
 .leftmenu h4{
 	padding-left: 70px;
@@ -41,13 +39,13 @@ a{
 .rightmenu{
 	width:75%;
 	line-height: 80px;
-	vertical-align: middle;
 	float: right;
 /*	background-color: red; */
 }
 
 .rightmenu ul{
 	margin-left: 150px;
+
 }
 
 .rightmenu ul li 
@@ -58,10 +56,46 @@ a{
 	font-size: 15px;
 	color:white;
 	font-weight: bold;
-	line-height: 80px;
+	line-height: 100px;
 	margin-left: 46px;
 	text-transform: uppercase;
+
 }
+
+.sub-menu1
+{
+	display: none;
+}
+
+
+
+.rightmenu ul li:hover .sub-menu1
+{
+	display: block;
+	position: absolute;
+	background-color: rgb(0,0,0,0.5	);
+	margin-top: 0px;
+	margin-left: -15px;
+	
+
+
+}
+
+
+.rightmenu ul li:hover .sub-menu1 ul
+{	
+	align-self:auto;
+	margin: 5px;
+	width: 150px;
+	padding: 1px;
+	border-bottom: 1px dotted;
+	background: transparent;
+    border-radius: 0;
+	text-align: center;
+	
+}
+
+
 
 .sub-menu
 {
@@ -115,15 +149,17 @@ a{
 	color: orange;
 }
 
+.leftmenu h4:hover{
+	color: orange;
+}
+
 
 .text{
 	width: 100%;
 	margin-top: 185px;
 	text-transform: uppercase;
 	text-align: center;
-	color: #eee;
-	text-shadow: 5px 5px 10px rgb(0, 0, 0);
-	cursor: default;
+	color:black;
 }
 
 .text h4{

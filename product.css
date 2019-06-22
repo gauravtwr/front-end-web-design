@@ -24,7 +24,7 @@
 /*	background-color: yellow;*/
 }
 
-	.leftmenu h4{
+.leftmenu h4{
 	padding-left: 70px;
 	font-weight: bold;
 	color: white;
@@ -82,6 +82,10 @@
 
 }
 
+.leftmenu h4:hover{
+	color: orange;
+}
+
 
 .rightmenu ul li:hover .sub-menu ul
 {	
@@ -97,17 +101,10 @@
 }
 
 
-.rightmenu ul li:hover
-{
+.rightmenu ul li:hover{
 	color: orange;
 
 }
-
-.leftmenu h4:hover{
-	color: orange;
-}
-
-
 .text p{
 	width: 60%;
 	margin-top: 50px;
